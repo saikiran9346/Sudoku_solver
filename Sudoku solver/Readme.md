@@ -43,7 +43,7 @@ All solutions for each puzzle will be written to `output.txt`.
 
 ### File Format Specifications
 Input File Format (input.txt)
-Exactly 9 lines per puzzle, space-separated numbers (0-9), with puzzles separated by blank lines:
+Exactly 9 lines per puzzle, space-separated numbers (0-9) exactly 9 numbers per line, with puzzles separated by blank lines:
 
 ## sample input(input.txt)
 ```
@@ -151,11 +151,11 @@ Minimum-remaining-values heuristic
 ```
 ## 📊 Performance Metrics
 ```
-Puzzle Type	Avg. Solve Time	Solutions Found
-Easy	0.0012s	1
-Medium	0.0035s	1
-Hard	0.0089s	1
-Multi-Sol	0.0217s	2+
+Puzzle Type	  Avg.Solve Time  Solutions Found
+Easy	        0.0012s	             1
+Medium	        0.0035s	             1
+Hard	        0.0089s	             1
+Multi-Sol	    0.0217s	             2+
 ```
 
 ## Project Structure
