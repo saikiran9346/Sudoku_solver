@@ -16,16 +16,20 @@ A high-performance Sudoku solver implementing Donald Knuth's Algorithm X (Dancin
 ## 🛠️ Compilation & Usage
 
 ### Compilation Command
-```bash
+```
 g++ -O2 -std=c++11 -o sudokusolver main.cpp
+```
 Execution Modes
+
 ### Run (Interactive Input)
+
 ```
 ./sudokusolver
 ```
 Prompts for puzzle entry row-by-row (0 for empty cells)
 
 ### File Input Mode (Console Output)
+
 ```
 ./sudokusolver input.txt
 ```
@@ -140,7 +144,7 @@ Recursive depth-first search
 
 Minimum-remaining-values heuristic
 
-📊 Performance Metrics
+## 📊 Performance Metrics
 Puzzle Type	Avg. Solve Time	Solutions Found
 Easy	0.0012s	1
 Medium	0.0035s	1
