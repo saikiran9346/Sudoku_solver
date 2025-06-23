@@ -45,7 +45,8 @@ All solutions for each puzzle will be written to `output.txt`.
 Input File Format (input.txt)
 Exactly 9 lines per puzzle, space-separated numbers (0-9), with puzzles separated by blank lines:
 
-input.txttext
+## sample input(input.txt)
+```
 0 2 0 0 0 5 0 8 0
 3 0 0 0 7 0 1 0 0
 7 9 0 0 0 0 0 0 0
@@ -76,10 +77,13 @@ input.txttext
 0 4 0 0 5 0 0 3 6
 7 0 3 0 1 8 0 0 0
 
-Output File Format (output.txt)
+# (Add more puzzles here, separated by blank lines)
+```
+
+## Output File Format (output.txt)
+```
 Detailed solution report with timing:
 
-text
 Puzzle 1:
 Solution 1:
 4 2 6 | 1 9 5 | 7 8 3 
@@ -130,8 +134,9 @@ Solution 1:
 
 1 solution found
 Solved in 0.005072 seconds.
-
-
+```
+## Technical Implementation
+```
 Dancing Links:
 
 Toroidal doubly-linked list structure
@@ -143,7 +148,7 @@ Backtracking:
 Recursive depth-first search
 
 Minimum-remaining-values heuristic
-
+```
 ## 📊 Performance Metrics
 Puzzle Type	Avg. Solve Time	Solutions Found
 Easy	0.0012s	1
