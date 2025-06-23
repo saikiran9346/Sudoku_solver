@@ -150,11 +150,13 @@ Recursive depth-first search
 Minimum-remaining-values heuristic
 ```
 ## 📊 Performance Metrics
+```
 Puzzle Type	Avg. Solve Time	Solutions Found
 Easy	0.0012s	1
 Medium	0.0035s	1
 Hard	0.0089s	1
 Multi-Sol	0.0217s	2+
+```
 
 ## Project Structure
 - `solvercpp` — Main source code
