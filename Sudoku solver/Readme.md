@@ -17,27 +17,27 @@ A high-performance Sudoku solver implementing Donald Knuth's Algorithm X (Dancin
 
 ### Compilation Command
 ```
-g++ -O2 -std=c++11 -o sudokusolver main.cpp
+g++ -o solver solver.cpp
 ```
 Execution Modes
 
 ### Run (Interactive Input)
 
 ```
-./sudokusolver
+./solver
 ```
 Prompts for puzzle entry row-by-row (0 for empty cells)
 
 ### File Input Mode (Console Output)
 
 ```
-./sudokusolver input.txt
+./solver input.txt
 ```
 
 ### File I/O Mode (File Output):
 
 ```
-./sudokusolver input.txt output.txt
+./solver input.txt output.txt
 ```
 All solutions for each puzzle will be written to `output.txt`.
 
